@@ -33,6 +33,11 @@ header{
     box-shadow:  0px 5px 10px rgba(227, 227, 227, 0.5);
         
 }
+.skytowers{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
 .block1{
     box-sizing: border-box;
     float: left;
@@ -43,6 +48,7 @@ header{
     height: 500px;
     background-color: #fff;
 }
+
 .hero-text-box1{
     position: absolute;
     background-color: #fff;
@@ -56,24 +62,9 @@ header{
 }
 .block2{
     width: 1920px;
-    height: 1060px;
+    height: 1120px;
     background-color: #fff;
 }
-.hero-text-box3{
-    position: absolute;
-    background-color: #fff;
-    top: 3000px;
-    
-}
-.block3{
-    box-sizing: border-box;
-    width: 600px;
-    left: 880px;
-
-
-}
-
-
 /*-------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*-------------------------------------*/
@@ -92,9 +83,11 @@ header{
     top: 0px;
     background: #fff;
     box-shadow:  0px 5px 10px #E3E3E3;
-       
+           
 }
-
+/*-------------------------------------*/
+/*advantages*/
+/*-------------------------------------*/
 .box1 p{
     padding-right: 170px;
     box-sizing: content-box;
@@ -145,31 +138,18 @@ h1{
     letter-spacing: 0.02em;
 }
 p,
-h2,
+h3,
 h4{
     margin-top: 10px;
     text-align: left;
     color: #3B4856;
     font-size: 14px;
     line-height: 150%;
-
 }
-/* h3{ 
-    color: #F4F4F4;
-    position: absolute;
-    left: 4.33%;
-    right: 64.24%;
-    top: 1.74%;
-    padding-left: 0px;
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 85px;
-    transform: rotate(90deg);
-
-} */
-h4{
+h2{
     font-size: 20px;
     font-weight: bold;
+    color: #3B4856;
 }
 
 /*--------BUTTONS--------*/
@@ -246,9 +226,7 @@ h4{
     text-decoration: none;
     font-size: 15px;
     line-height: 110%;
-   
-}
-
+   }
 .main-nav li a:hover,
 .main-nav li a:active{
     
@@ -327,9 +305,9 @@ h4{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(157, 157, 157, 0.5);
     border-radius: 9px;
-    
+       
 }
-.ser_item h4{
+.ser_item h2{
     width: 300px;
     padding-left: 20px;
     line-height: 21px;
@@ -339,11 +317,16 @@ h4{
     vertical-align: middle;
     padding-left: 20px;
 }
-.ser_item h2{
+.ser_item h3{
     padding-left: 20px;
     width: 260px;
     color: #3B4856;
     line-height: 21px;
+}
+.ser_item h4{
+    padding-left: 20px;
+    color: #8AB9DB;
+
 }
 .ser_item p{
     display: inline-block;
@@ -374,10 +357,13 @@ h4{
     max-width: 1200px;
     display: inline-block;
 }
-.img{
-    -webkit-filter: grayscale(100%);  
-     filter: grayscale(100%);  
-    
+.row1 img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+   }
+.row1 img:hover{
+    -webkit-filter: none;
+    filter: none;
 }
 .el1 {
     margin-right: 120px;
@@ -401,4 +387,29 @@ h4{
 .el7{
     margin-right: 60px;
 }
+/*-------------------------------------*/
+/*Block3*/
+/*-------------------------------------*/
+.image1
+{
+    position: absolute;
+    top: 3000px;
+}
+.hero-text-box3{
+    position: absolute;
+    top: 3085px;
+    width: 600px;
+    left: 880px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px #E3E3E3
+}
+.block3{
+    padding: 42px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+.build{
+    margin-bottom: 20px;
+}
+
 
