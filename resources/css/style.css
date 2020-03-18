@@ -33,11 +33,64 @@ header{
     box-shadow:  0px 5px 10px rgba(227, 227, 227, 0.5);
         
 }
+/*-------------------------------------*/
+/*NAVIGATION*/
+/*-------------------------------------*/ 
+.logo {
+    float: left;
+    margin-top: 10px;
+    padding-left: 415px;
+    
+}
+.plogo{
+    float: left;
+    margin-top: 28px;
+    padding-left: 120px;
+    margin-right: 10px; 
+    
+}
+.main-nav{
+    list-style: none;
+    z-index: 2;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 35px;
+    letter-spacing: 0.02em;
+}
+.main-nav li p{
+    font-size: 12px;
+    line-height: 22px;
+}
+.main-nav li p strong{
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    color: #007491;
+  }
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #000912;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 110%;
+   }
+.main-nav li a:hover,
+.main-nav li a:active{
+    
+    background-size: cover;
+    background-color: #EEF8FF;
+}
+/*-------------------------------------*/
+/*AFTER HEADER*/
+/*-------------------------------------*/ 
 .skytowers{
     position: absolute;
     left: 0px;
     top: 80px;
 }
+
 .block1{
     box-sizing: border-box;
     float: left;
@@ -48,28 +101,10 @@ header{
     height: 500px;
     background-color: #fff;
 }
-
-.hero-text-box1{
-    position: absolute;
-    background-color: #fff;
-    padding-top: 43.5px;
-    padding-bottom: 43.5px;
-    padding-left: 40px;
-    width: 600px;
-    left: 880px;
-    top: 1550px;
-    box-shadow:  0px 5px 10px rgba(227, 227, 227, 0.5);
-}
-.block2{
-    width: 1920px;
-    height: 1140px;
-    background-color: #fff;
-}
 /*-------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*-------------------------------------*/
 .row {
-    padding: 55;
     max-width: 1200px;
     display: inline-block;
     margin-left: 415px;
@@ -77,6 +112,7 @@ header{
     }
 .menu{
     position: fixed;
+    z-index: 100;
     width: 1920px;
     height: 77px;
     left: 0px;
@@ -118,7 +154,7 @@ header{
     box-sizing: content-box;
     width: 280px;
     height: 105px;
-    padding-right: 163px;
+    padding-right: 140px;
     margin-bottom: 70px; 
 }
 
@@ -185,54 +221,7 @@ h2{
 }
 
 
-/*-------------------------------------*/
-/*NAVIGATION*/
-/*-------------------------------------*/ 
-.logo {
-    float: left;
-    margin-top: 10px;
-    padding-left: 415px;
-    
-}
-.plogo{
-    float: left;
-    margin-top: 28px;
-    padding-left: 120px;
-    margin-right: 10px; 
-    
-}
-.main-nav{
-    list-style: none;
-}
 
-.main-nav li{
-    display: inline-block;
-    margin-left: 40px;
-    letter-spacing: 0.02em;
-}
-.main-nav li p{
-    font-size: 12px;
-    line-height: 22px;
-}
-.main-nav li p strong{
-    font-weight: 600;
-    text-align: center;
-    font-size: 16px;
-    color: #007491;
-  }
-.main-nav li a:link,
-.main-nav li a:visited{
-    color: #000912;
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 110%;
-   }
-.main-nav li a:hover,
-.main-nav li a:active{
-    
-    background-size: cover;
-    background-color: #EEF8FF;
-}
 /*-------------------------------------*/
 /*Slider*/
 /*-------------------------------------*/ 
@@ -264,8 +253,18 @@ h2{
 } */
 
 /*-------------------------------------*/
-/*Textblock*/
+/*Block2*/
 /*-------------------------------------*/
+.hero-text-box1{
+    position: absolute;
+    background-color: #fff;
+    padding: 43px;
+    padding-left: 40px;
+    width: 600px;
+    left: 880px;
+    top: 1550px;
+    box-shadow:  0px 5px 10px rgba(227, 227, 227, 0.5);
+}
 .works-step p{
     display: inline-block;
     padding-left: 15px;
@@ -279,7 +278,7 @@ h2{
 .swiper-button-prev{
     margin-left: 260px;
     margin-top: 30px;
-    
+          
 }
 .back_to_top {
     margin-left: 0px;
@@ -288,9 +287,10 @@ h2{
 /*Services*/
 /*-------------------------------------*/
 .service{
-    padding-left: 150px;
+    padding-left: 315px;
     display: inline-block;
     }
+
 .services {     
     display: inline-block;
     width: 360px;
@@ -299,7 +299,6 @@ h2{
 .ser_item{
     position: absolute;
     display: inline-block;
-    list-style: none;
     width: 360px;
     height: 270px;
     background: #FFFFFF;
