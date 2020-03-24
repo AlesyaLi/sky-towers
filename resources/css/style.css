@@ -295,7 +295,6 @@ h2{
     display: inline-block;
     width: 360px;
 }      
-
 .ser_item{
     position: absolute;
     display: inline-block;
@@ -325,7 +324,6 @@ h2{
 .ser_item h4{
     padding-left: 20px;
     color: #8AB9DB;
-
 }
 .ser_item p{
     display: inline-block;
@@ -338,7 +336,6 @@ h2{
     width: 1920px;
     height: 1140px;
     background-color: #fff;
-    
 }
 /*-------------------------------------*/
 /*TENANTS*/
@@ -349,7 +346,6 @@ h2{
     top: 2630px;
     text-align: center;
 }
-
 .container{
     position: absolute;
     width: 1140px;
@@ -416,5 +412,47 @@ h2{
 .build{
     margin-bottom: 20px;
 }
+/*-------------------------------------*/
+/*Block4*/
+/*-------------------------------------*/
+.hero-text-box4 {
+    margin-left: 315px;
+    /* width: 470px; */
+}
 
-
+.block4{
+    position: absolute;
+    top: 3700px;
+    margin-left: 315px;
+    padding-right: 180px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px #E3E3E3
+    
+}
+.block4 h1{
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-left: 40px;
+       
+}
+.block4 img{
+    vertical-align: middle;
+    padding-right: 15px;
+}
+.block4 p a{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.block4 p {
+    text-align: left;
+    word-break: break-word;
+    max-width: 250px;
+    height: 40px;
+    margin-left: 15px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+/*-------------------------------------*/
+/*Footer*/
+/*-------------------------------------*/
